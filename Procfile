@@ -1,1 +1,1 @@
-web: wholesomerng -source=./data.txt
+web: wholesomerng -address=$PORT -source=./data.txt
