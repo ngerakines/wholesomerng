@@ -1,0 +1,11 @@
+{
+    "name": "Wholesomerng",
+    "description": "Wholesome random stuff",
+    "keywords": [
+        "go"
+    ],
+    "image": "heroku/go:1.6",
+    "mount_dir": "src/github.com/heroku/go-getting-started",
+    "website": "https://github.com/ngerakines/wholesomerng",
+    "repository": "https://github.com/ngerakines/wholesomerng"
+}
