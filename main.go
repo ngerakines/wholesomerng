@@ -80,7 +80,10 @@ const tpl = `
         .permalink a:hover {
             text-decoration: underline;
         }
-    </style>
+	</style>
+	<meta property="og:url" content="https://salty-beyond-53241.herokuapp.com/{{ .Hash }}"/>
+	<meta property="og:description" content="{{ .Line }}"/>
+	<meta property="og:site_name" content="Wholesome Random Stuff"/>
 </head>
 <body>
     <div id="content">
