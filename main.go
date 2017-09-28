@@ -293,7 +293,7 @@ func parseLines(lines []string) (content, error) {
 
 func formatAddress(input string) string {
 	if strings.HasPrefix(input, ":") {
-		return intput
+		return input
 	}
 	return ":" + input
 }
