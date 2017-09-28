@@ -5,7 +5,7 @@
         "go"
     ],
     "image": "heroku/go:1.6",
-    "mount_dir": "src/github.com/heroku/go-getting-started",
+    "mount_dir": "src/github.com/ngerakines/wholesomerng",
     "website": "https://github.com/ngerakines/wholesomerng",
     "repository": "https://github.com/ngerakines/wholesomerng"
 }
