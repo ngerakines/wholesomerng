@@ -196,7 +196,7 @@ func main() {
 	})
 
 	h := &http.Server{
-		Addr:    address,
+		Addr:    formatAddress(address),
 		Handler: mux,
 	}
 
@@ -289,4 +289,11 @@ func parseLines(lines []string) (content, error) {
 		content[hash] = line
 	}
 	return content, nil
+}
+
+func formatAddress(input string) string {
+	if strings.HasPrefix(input, ":") {
+		return intput
+	}
+	return ":" + input
 }
